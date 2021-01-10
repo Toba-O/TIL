@@ -1,0 +1,91 @@
+.head {
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.date {
+  font-weight: 800;
+  margin-left: 100px;
+  color: #116385;
+  padding-bottom: 10px;
+  font-size: 20px;  
+  background-color: transparent;
+  padding-bottom: calc(1px * 2);
+  position: relative;
+  transition: .3s ease;
+  cursor: pointer;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.desc {
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #14232e;
+  margin-left: 100px; 
+  margin-right: 100px;
+  padding-bottom: 50px;
+  width: auto;
+  word-wrap: break-word; 
+}
+
+.main {
+  font-family: 'Inter', sans-serif;
+}
+
+/*** Efects ***/
+
+.date::after {
+    display: block;
+    background-color: #116385;
+    width: 75px;
+    left: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: .2s ease;
+    content: "";
+}
+
+
+.date:hover::after {
+    transform: scaleX(1);  
+}
+
+sup .super {
+  margin-left: 10px;
+  font-weight: 700;
+  color: white;
+  display: inline;
+  background-color: red;
+  border: 7px solid red;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+
+
+
+/*** Responsive ***/
+@media only screen and (max-width: 468px) {
+  body {
+    
+  }
+  .head {
+   margin-left: 50px; 
+   margin-right: 50px;
+  }
+  .date {
+   margin-left: 50px; 
+   margin-right: 50px;
+  }
+  .desc {
+   margin-left: 50px; 
+   margin-right: 50px;
+  }
+}
