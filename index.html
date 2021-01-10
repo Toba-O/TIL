@@ -11,8 +11,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   </head>
   
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <script>
+    import Typed from "https://cdn.skypack.dev/typed.js";
+
+    var typed = new Typed('.element', {
+      strings: ["..."],
+      typeSpeed: 1000,
+      loop: false,
+    });
+  </script>
+  
   <body>
-    <div class="head">Something I learned on...</div>
+    <div class="head">Something I learned on<span class="element highlight"></span>
+    <span id="typed"></span></div>
 
      <div class="main">
       
