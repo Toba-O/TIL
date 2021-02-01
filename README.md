@@ -6,4 +6,4 @@
 
 Primarily focusing on new discoveries in bioinformatics, programming languages, and some web development
 
-Utilizing plain HTML and CSS, as well as Bootstrap. Minor focus on responsive design. 
+Utilizing plain HTML, CSS/Bootstrap, and Typed.js. Minor focus on responsive design. 
