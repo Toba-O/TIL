@@ -3,7 +3,6 @@
 
 🧠 Thus, this is a site I made to track the various educational things I've learned every few days 
 
-
 Primarily focusing on new discoveries in bioinformatics, programming languages, and some web development
 
 Utilizing plain HTML, CSS/Bootstrap, and Typed.js by Matt Boldt. Minor focus on responsive design. 
