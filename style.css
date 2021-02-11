@@ -1,3 +1,11 @@
+::selection {  
+  background: #ffe987 !important;
+}
+    
+::-moz-selection {
+  background: #ffe987 !important; /* Firefox */
+}
+
 .head {
   margin-left: 100px;
   margin-top: 50px;
